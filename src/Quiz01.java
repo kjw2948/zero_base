@@ -25,8 +25,4 @@ public class Quiz01 {
             System.out.println(" ");
         }
     }
-    public static void main(){
-        Quiz01 a = new Quiz01();
-        a.gugudan();
-    }
 }
