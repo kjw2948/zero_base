@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
+import java.time.LocalDate;
 public class Main {
     public void gugudan() {
         String s1;
@@ -96,9 +97,11 @@ public class Main {
             System.out.print(random_number);
         }
     }
+    public  void calendar(){
 
+    }
     public static void main(String[] args) {
         Main s1 = new Main();
-        s1.creatId();
+        s1.calendar();
     }
 }
