@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public void gugudan() {
         String s1;
         String s2;
         String s3;
@@ -15,12 +15,17 @@ public class Main {
                 s2 = String.format(" x ");
                 s3 = String.format("%02d", i);
                 s4 = String.format(" = ");
-                s5 = String.format("%02d", i*j);
+                s5 = String.format("%02d", i * j);
                 s6 = String.format("   ");
-                gugudan = s1+s2+s3+s4+s5+s6;
+                gugudan = s1 + s2 + s3 + s4 + s5 + s6;
                 System.out.print(gugudan);
             }
             System.out.println(" ");
         }
+    }
+
+    public static void main(String[] args) {
+        Main s1 = new Main();
+        s1.gugudan();
     }
 }
