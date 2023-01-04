@@ -77,6 +77,6 @@ public class Quiz06 {
                     else System.out.printf("[투표결과] 당선인 : %s", name_array[max_index]);
                 }
             }
-            }
         }
     }
+}
