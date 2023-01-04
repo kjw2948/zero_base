@@ -11,6 +11,7 @@ public class Quiz07 {
             }
         }
         return check_num;
+
     }
 
     public int[] deleteDup(int my_lotto[]) {
