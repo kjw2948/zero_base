@@ -6,7 +6,7 @@ public class Main {
 
     }
     public static void main(String[] args) {
-        Quiz02 s1 = new Quiz02();
-        s1.cashBack();
+        Quiz05 s1 = new Quiz05();
+        s1.calendar();
     }
 }
